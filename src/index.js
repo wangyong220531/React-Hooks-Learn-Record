@@ -4,7 +4,8 @@ import ReactDOM from "react-dom/client"
 // import UseReducerTest from "./useReducerTest"
 // import UseContextMIXUseReducer from "./UseContextMIXUseReducer/useContextMIXuseReducer"
 // import UseMemoTest from "./useMemoTest"
-import UseRefTest from "./useRefTest"
+// import UseRefTest from "./useRefTest"
+import Demo from "./自定义Hooks"
 
 const root = ReactDOM.createRoot(document.getElementById("root"))
 root.render(
@@ -13,6 +14,7 @@ root.render(
         {/* <UseReducerTest /> */}
         {/* <UseContextMIXUseReducer /> */}
         {/* <UseMemoTest /> */}
-        <UseRefTest/>
+        {/* <UseRefTest/> */}
+        <Demo/>
     </React.StrictMode>
 )
